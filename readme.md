@@ -4,4 +4,4 @@
 
 ▶ Exercícios dia 15/08 focado em variáveis. 
 
-▶ Exercícios dia 16/08 resaltando o *controle de fluxo* 
+▶ Exercícios dia 16/08 resaltando o **controle de fluxo**. 
