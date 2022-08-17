@@ -3,14 +3,14 @@
  */
 
 fun main(){
-    print("Digite tres numeros: ")
-    val numerosDigitos = readln();
-    val arrayDigitos = numerosDigitos.split(";")
-    var aux: Int
-    var arrayDigitosInt = arrayOf<Int>()
+   println("Digite o primeiro numero: ")
+   val n1 = readln().toInt();
 
-    //Converter números para inteiro e comparar todos
+   println("Digite o segundo numero: ")
+   val n2 = readln().toInt();
 
+   println("Digite o terceiro  numero: ")
+   val n3 = readln().toInt();
 
 
 
