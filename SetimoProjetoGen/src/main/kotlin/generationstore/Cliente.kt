@@ -4,14 +4,20 @@ package generationstore
 class Cliente(val nome: String, val endereco: String, val telefone: String) {
     private var listaCompra = mutableListOf<String>()
 
+    init{
+        checarAtributos()
+    }
+
 
     fun addItem(){
         println()
         println("Digite o nome do produto")
         val item = readln()
-        if(item != ""){
+        if(item.isNotBlank()){
             listaCompra.add(item)
             println("Produto Adicionado na Compra")
+        }else{
+            println("Produto inválido")
         }
     }
 
@@ -35,7 +41,7 @@ class Cliente(val nome: String, val endereco: String, val telefone: String) {
     }
 
     fun checarAtributos(){
-        if(nome == "" && telefone == ""){
+        if(nome.isBlank()){
             throw Exception("Cliente Cadastrado de maneira errada!")
         }
     }
