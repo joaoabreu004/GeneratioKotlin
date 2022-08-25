@@ -16,4 +16,4 @@
 
 ▶ Exercícios 24/08 **Programação Orientada a Objetos** Herança & Polimorfismo. 
 
-▶ Exercício 25/08 **Teste Unitários** (Classe Funcionários). 
+▶ Exercício 25/08 **Testes Unitários** (Classe Funcionários). 
