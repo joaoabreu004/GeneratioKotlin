@@ -15,3 +15,5 @@
 ▶ Exercícios 23/08 **Programação Orientada a Objetos PT. II: {Exceção e Encapsulamento}**.
 
 ▶ Exercícios 24/08 **Programação Orientada a Objetos** Herança & Polimorfismo. 
+
+▶ Exercício 25/08 **Teste Unitários** (Classe Funcionários). 
