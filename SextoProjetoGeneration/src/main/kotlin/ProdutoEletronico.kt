@@ -1,7 +1,5 @@
 /*
-    Crie uma classe avião e apresente os atributos e métodos referentes
-esta classe, em seguida crie um objeto avião, defina as instancias deste
-objeto e apresente as informações deste objeto no console.
+    CRIE UM CLASSE PRODUTO ELETRÔNICO
  */
 
 class ProdutoEletronico ( var id: String ,var nome: String, var marca: String){

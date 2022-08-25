@@ -8,6 +8,11 @@ class Funcionario(var id: String, var nome: String, var cargo: String, var salar
     var situacao = "Ativo"
     var bateuPonto = false
 
+    init{
+        checarAtributos()
+    }
+
+
     fun bonificacao(valor: Double){
         this.salario += valor
     }
@@ -21,4 +26,26 @@ class Funcionario(var id: String, var nome: String, var cargo: String, var salar
         this.situacao = "Inativo"
     }
 
+    fun descontarSalario(valor: Double){
+        if(valor > 0){
+            this.salario -= valor
+        }else {
+            println("Impossível descontar esse valor!")
+        }
+    }
+
+    fun checarAtributos(){
+        if(nome.isNullOrBlank()){
+            throw Exception ("Funcionário cadastrado sem nome")
+        }
+    }
+
+    @Override
+    override fun toString():String {
+        return println("ID: ${this.id}\n" +
+                "NOME: ${this.nome}\n" +
+                "CARGO: ${this.cargo}\n" +
+                "SALARIO: ${this.salario}\n" +
+                "SITUAÇÃO: ${this.situacao}").toString()
+    }
 }
